@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+ }
+
+ body{
+    background-color: #262455;
+ }
+
+ ::-webkit-scrollbar{
+   width: 10px;
+ }
+
+ ::-webkit-scrollbar-track{
+   background: white;
+ }
+
+ ::-webkit-scrollbar-thumb{
+   background: #3594ff;
+   border-radius: 100px;
+ }
+
+
+
+
+.account{
+   position: fixed;
+   top: 10%;
+   left: 95%;
+   transform: translate(-50%,-50%);
+}
+
+.account a{
+   text-decoration: none;
+}
+
+.account a i{
+   font-size: 20px;
+   padding: 10px;
+   border-radius: 100px;
+   text-align: center;
+   color: #ffffff;
+   border: 2px solid white;
+
+}
+
+
+
+.account a i:hover{
+   color: #3594ff;
+   transition: .4s;
+   border: 2px solid #3594ff;
+}
+
+ nav .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    background: #dc052d;
+ }
+
+ nav .menu .logo{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: no-repeat;
+    background-image: url('./img/fc reldos.png');
+    background-size: cover;
+ }
+
+ nav .menu .logo:hover{
+    transition: .5s;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url('./img/fc reldos black.png');
+ }
+
+ nav .menu .ber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+ }
+ 
+ nav .menu .ber li{
+    list-style: none;
+    margin-left: 20px;
+ }
+
+
+ nav .menu .ber a{
+    text-decoration: none;
+    color: white;
+ }
+
+ nav .menu .ber a:hover{
+   color: #3594ff;
+   transition: .4s;
+}
+
+ nav .menu .ber li p{
+    font-size: 20px;
+    font-weight: 800;
+ }
+
+
+
+
+
+
+
+
+.imgs{
+    width: 100%;
+}
+
+.imgs .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imgs .img .list{
+    display: none;
+}
+
+.imgs .img .banner1{
+    width: 800px;
+    height: 400px;
+    background-image: url('./../img/Billboard\ Mockup\ _1\ Free\ by\ @entivisuals.png');
+    background-size: cover;
+    border-radius: 1px;
+    border-bottom: 8px solid rgba(255, 255, 255, 0);
+    border-right: 8px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.imgs .img .banner1:hover{
+    transition: .5s;
+    border-radius: 2px;
+    border-bottom: 8px solid white;
+    border-right: 8px solid white;
+    box-shadow: 8px 8px rgba(255, 255, 255, 0.37);
+}
+
+.imgs .img .banner{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.imgs .img .banner .swiper{
+   width: 800px;
+   height: 400px;
+   border-radius: 2px;
+   border-bottom: 8px solid rgba(255, 255, 255, 0);
+   border-right: 10px solid rgba(255, 255, 255, 0);
+   box-shadow: 5px 5px rgba(255, 255, 255, 0);
+}
+
+.imgs .img .banner .swiper:hover{
+   transition: .5s;
+   border-bottom: 8px solid rgb(255, 255, 255);
+   border-right: 10px solid rgb(255, 255, 255);
+   box-shadow: 5px 5px rgba(255, 255, 255, 0.548);
+}
+
+.imgs .img .banner .swiper-slide img{
+   width: 100%;
+}
+
+.imgs .img .banner .swiper .swiper-button-prev{
+   color: white;
+}
+
+.imgs .img .banner .swiper .swiper-button-next{
+   color: white;
+}
+
+.imgs .img .banner .swiper .sponser-pagination-bullet-active{
+   background: white;
+}
+
+
+
+ .imgs .img .list img{
+    width: 340px;
+    box-shadow: -5px -5px 5px 5px #3e2479bb;
+    border-radius: 10px;
+    margin: 10px;
+ }
+
+
+
+ .reldunk{
+   display: none;
+   width: 100%;
+   height: 100vh;
+   background-color: #cdcbc3;
+ }
+
+ .reldunk .swiper{
+   width: 1000px;
+   height: 600px;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+ }
+
+ .reldunk .swiper .img-1{
+   width: 100%;
+   height: 600px;
+   background-image: url('./../img/reldunk/img01v2.png');
+}   
+
+ .reldunk .swiper .img-2{
+   width: 100%;
+   height: 600px;
+   background-image: url('./../img/reldunk/img02v2.png');
+ }
+
+
+ .reldunk .swiper .img-3{
+   width: 100%;
+   height: 600px;
+   background-image: url('./../img/reldunk/img03v2.png');
+ }
+
+
+ .reldunk .swiper .swiper-button-prev{
+   color: white;
+}
+
+.reldunk .swiper .swiper-button-next{
+   color: white;
+}
+
+.reldunk .title{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.reldunk .title img{
+   width: 300px;
+   margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+ .official-sponser-ads{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .official-sponser-ads .sponser{
+    display: flex;
+ }
+
+ .official-sponser-ads .sponser a img{
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+ }
+
+ .phone-view-menu{
+   display: none;
+ }
+
+
+
+
+
+
+
+
+ .matchs{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #dc052d;
+   margin-bottom: 10px;
+ }
+
+ .matchs .match-box{
+   display: inline;
+   margin: 20px;
+ }
+
+ .matchs .match-box .line1{
+   display: flex;
+ }
+
+ .matchs .match-box .line2{
+   display: flex;
+ }
+
+ .matchs .match-box div p{
+   font-size: 30px;
+   font-weight: 700;
+   color: white;
+ }
+
+
+ footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: rgba(255, 255, 255, 0.65);
+ }
+
+ footer .foot-box{
+   display: flex;
+ }
+
+ footer .foot-box .box img{
+   width: 200px;
+ }
+
+ footer .l-1  .menu .box{
+   display: flex;
+ }
+
+ footer .l-1 .menu .box ul{
+   margin: 50px;
+ }
+
+ footer .l-1 .menu .box ul a{
+   text-decoration: none;
+   color: black;
+ }
+
+ footer .l-1 .menu .box ul li{
+   list-style: none;
+ }
+
+ footer .l-1 .menu .box ul li:hover{
+   color: rgba(0, 0, 0, 0.581);
+ }
+
+
+ @media all and (max-width: 500px){
+   .phone-view-menu{
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    nav{
+      display: none;
+    }
+
+    .phone-view-menu{
+      width: 500px;
+      height: 180px;
+      background: #dc052d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .phone-view-menu .icon{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .phone-view-menu .icon .logo{
+      width: 150px;
+      height: 150px;
+      background: url('./../img/fc reldos.png');
+      background-size: cover;
+    }
+
+    .imgs .img .swiper{
+      width: 300px;
+      height: 150px;
+    }
+ }
